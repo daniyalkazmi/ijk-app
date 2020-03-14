@@ -1,0 +1,23 @@
+
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+  --mainSmoke: #fffaf0;
+}
+body {
+  font-family: "Mukta Mahee", sans-serif;
+}
+.home{
+  background-image: url(./images/ijk.jpg);
+  margin-left:20px;
+  width: 100% ;
+  height : 500px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
