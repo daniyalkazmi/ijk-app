@@ -1,32 +1,13 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import "../App.css";
-
 import Img from "../images/Logo.png";
-import Img1 from "../images/Img1.jpg";
-import Img2 from "../images/Img2.jpg";
-import Img3 from "../images/Img3.jpg";
-
+import Img1 from "../images/books.jpg";
+import Img2 from "../images/ds.jpeg";
+import Img3 from "../images/d.jpeg";
+import Img4 from "../images/e.jpg";
 
 import { Link } from "react-router-dom";
-const couroselSlide = document.querySelector('.courosel-slide');
-const couroselImages = document.querySelectorAll('.courosel-slide img')
-// button
-const prevBtn = document.querySelector('#prevBtn');
-const nextBtn = document.querySelector('#nextBtn');
-//counter
-let counter = 1;
-// const size = couroselImages[0].clientWidth;
-
-
-// couroselSlide.style.transform = 'translateX (' + (-size * counter) + 'px)';
- 
-// //button listener
-// nextBtn.addEventListener('click', ()=> {
-//   couroselSlide.style.transition = 'transform 0.4s ease-in-out';
-//   counter++;
-// })
-
 export default class Navbar extends Component {
   render() {
     return (
@@ -66,42 +47,37 @@ export default class Navbar extends Component {
               </div>
             </ul>
           </nav>
-          
-<div className="courosel-container">
-  <div className="courosel-slide">
-    <img src={Img1} />
-    <img src={Img2} />
-    <img src={Img3} />
-
-  </div>
-</div>
-{/* <button className="prevBtn">Prev</button>
-<button className="nextBtn">Next</button> */}
-
-           
+          {/* slideshow */}
+          <div className="slider">
+            <figure>
+              <div className="slide">
+                <h1>item 1</h1>
+                <img src={Img1} className="img-responsive" />
+              </div>
+              <div className="slide">
+                <h1>item 2</h1>
+                <img src={Img2} className="img-responsive" />
+              </div>
+              <div className="slide">
+                <h1>item 3</h1>
+                <img src={Img3} className="img-responsive" />
+              </div>
+              <div className="slide">
+                <h1>item 4</h1>
+                <img src={Img4} className="img-responsive" />
+              </div>
+            </figure>
+          </div>
         </header>
-       
+        {/* end of header */}
       </NavWrapper>
     );
   }
 }
 
 const NavWrapper = styled.div`
-.courosel-container{
-  margin:auto;
-  width: 70%;
-  overflow : hidden;
-  
-}
-.courosel-slide{
-  display:flex;
-  width: 100%;
-  height:700px;
 
-}
-header{
-  width:100%;
-}
+
 .navbar{
 background: var(--mainDark)
 
@@ -155,17 +131,7 @@ nav {
   width : 100%;
  
 }
-.banner{
-  flex:1 0 auto;
-  display : flex;
-  justify-content : center;
-  align-items: center;
-  text-align: center;
-}
-.banner h1{
-  font-size: 50px;
-  text-transform : uppercase;
-}
+
 nav{
   flex: 0 0 auto;
   z-index:10;

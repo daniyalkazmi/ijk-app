@@ -8,6 +8,8 @@ import Policy from "./components/Policy";
 import Extra_Activities from "./components/Extra_Activities";
 import Fee_Policy from "./components/Fee_Policy";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
 import "./App.css";
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
           <Route path="/Extra_Activities" component={Extra_Activities} />
           <Route path="/Fee_Policy" component={Fee_Policy} />
           <Route path="/Contact" component={Contact} />
+          
         </Switch>
+        <Footer />
       </React.Fragment>
     </Router>
   );
