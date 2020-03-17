@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 :root {
   --mainBlue: #2a2a72;
@@ -38,31 +37,34 @@ body {
   margin: 0;
   animation: animate 20s infinite;
 }
-.home{
+.home {
   background-image: url(./images/header.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   height: auto;
-  position: relative;
   text-align: justify;
 }
-.home div{
+.home div {
   color: aliceblue;
   padding: 30px;
   font-size: 18px;
-  
-
 }
-h1 {
-  position: fixed;
-  color: #fff;
-  font-size: 70px;
-  text-align: center;
-  padding-top: 250px;
+.sir {
   width: 100%;
-  height: 100vh;
-  overflow: hidden;
+  height: 700px;
+  background: url(./images/sir.jpg);
+  background-position: top;
+  margin-top: 20px;
+}
+.sir-text {
+  display: flex;
+  flex-direction: row;
+}
+h5 {
+  line-height: 30px;
+  font-size: 20px;
 }
 @keyframes animate {
   0% {
@@ -119,3 +121,188 @@ h1 {
     left: 0%;
   }
 }
+/* abt style  */
+.mission {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  background-image: url(./images/mission.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+}
+.mission p {
+  font-size: 16px;
+}
+.mission h1 {
+  color: #00bff3;
+  font-weight: bold;
+}
+.campus {
+  background: url(./images/poster.jpg);
+  height: 400px;
+  margin-top: 10px;
+  background-image: url(./images/campus.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.campusrow {
+  text-align: center;
+}
+.campusrow p {
+  font-size: 20px;
+}
+.bg1 {
+  background-color: rgb(221, 227, 235);
+  margin-top: 20px;
+}
+.bg2 {
+  background-color: rgb(221, 227, 235);
+  margin-top: 10px;
+}
+.graduationbg {
+  background: url(./images/image.jpg);
+  height: 400px;
+  margin-top: 10px;
+  background-position: top;
+  background-size: cover;
+}
+.alumni {
+  background: url(./images/staff.jpg);
+  height: 400px;
+  margin-top: 10px;
+  background-position: top;
+  background-size: cover;
+}
+/* curriculum styling */
+.cr-1 {
+  background: url(./images/cr1.jpg);
+  height: 400px;
+  margin-top: 10px;
+  background-position: top;
+  background-size: cover;
+}
+.cr {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+}
+.cr h3 {
+  color: var(--mainBlue);
+}
+.crbg {
+  background: url(./images/mon.jpg);
+  height: auto;
+  margin-top: 10px;
+  background-position: top;
+  background-size: cover;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  color: white;
+}
+.crbg h1 {
+  text-align: center;
+}
+.homelearning {
+  background: url(./images/sch.gif);
+  height: 400px;
+  margin-top: 10px;
+  background-position: top;
+  background-size: cover;
+}
+.pri {
+  background: url(./images/pri.gif);
+  height: 400px;
+  margin-top: 10px;
+  background-position: top;
+  background-size: cover;
+}
+.prim {
+  background: url(./images/sec.gif);
+  height: 400px;
+  margin-top: 10px;
+  background-position: top;
+  background-size: cover;
+}
+/* extra activiteis page styling */
+.act {
+  background: url(./images/sp3.jpg);
+  width: 100%;
+  height: 700px;
+  margin-top: 10px;
+  background-size: cover;
+}
+.sp1 {
+  background-image: url(./images/sp6.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
+.sp2 {
+  background-image: url(./images/pl.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.ed {
+  background-image: url(./images/ed.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.feebg {
+  background-image: url(./images/fee.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-top: 10px;
+  height: 500px;
+}
+/* addmission policy */
+.att {
+  background-image: url(./images/att.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  margin-top:20px;
+}
+.beh{
+  background-image: url(./images/beh.jpg);
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top:20px;
+}
+.is{
+  background-image: url(./images/is.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

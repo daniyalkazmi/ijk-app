@@ -6,6 +6,7 @@ import Img1 from "../images/books.jpg";
 import Img2 from "../images/ds.jpeg";
 import Img3 from "../images/d.jpeg";
 import Img4 from "../images/e.jpg";
+import Img5 from '../images/saba.jpg';
 
 import { Link } from "react-router-dom";
 export default class Navbar extends Component {
@@ -39,10 +40,7 @@ export default class Navbar extends Component {
                   <li>Extra Activities</li>
                 </Link>
                 <Link to="/Fee_Policy">
-                  <li>Fee Policy</li>
-                </Link>
-                <Link to="/Policy">
-                  <li>Addmission Policy</li>
+                  <li>IJK Policy</li>
                 </Link>
               </div>
             </ul>
@@ -51,21 +49,21 @@ export default class Navbar extends Component {
           <div className="slider">
             <figure>
               <div className="slide">
-                <h1>item 1</h1>
+               
                 <img src={Img1} className="img-responsive" />
               </div>
               <div className="slide">
-                <h1>item 2</h1>
+               
                 <img src={Img2} className="img-responsive" />
               </div>
               <div className="slide">
-                <h1>item 3</h1>
+                
                 <img src={Img3} className="img-responsive" />
               </div>
               <div className="slide">
-                <h1>item 4</h1>
                 <img src={Img4} className="img-responsive" />
               </div>
+            
             </figure>
           </div>
         </header>

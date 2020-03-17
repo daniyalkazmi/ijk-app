@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import "./App.css";
 function App() {
   return (
+    <container>
     <Router>
       <React.Fragment>
         <Navbar />
@@ -29,6 +30,7 @@ function App() {
         <Footer />
       </React.Fragment>
     </Router>
+    </container>
   );
 }
 export default App;

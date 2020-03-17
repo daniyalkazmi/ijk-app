@@ -1,28 +1,31 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import Hbg from '../images/ijk.jpg';
+import Img1 from "../images/smile.jpg";
+import Img2 from "../images/img2h.jpg";
+import Img3 from "../images/img3h.jpg";
+
 class Home extends Component {
   render() {
     return (
       <HomeWrapper>
         <div className="row justify-content-md-center px-5  ">
-          <div className="col-3  p-5">
+          <div className="col-lg-3 col-sm-12  p-5">
 
             <h2> <i class="fas fa-school"></i> Schooling Life</h2>
           </div>
-          <div className="col-3  p-5">
+          <div className="col-lg-3 col-sm-12  p-5">
             <h2> <i class="fas fa-user-graduate"></i> Qualified Staff</h2>
           </div>
-          <div className="col-3  p-5">
+          <div className="col-lg-3 col-sm-12  p-5">
 
             <h2><i class="fas fa-running"></i>Sports Activities</h2>
           </div>
-          <div className="col-3  p-5">
+          <div className="col-lg-3 col-sm-12  p-5">
 
             <h2> <i class="fas fa-sms"></i> SMS Alert</h2>
           </div>
         </div>
-        <div class="row home ">
+        <div class="row home">
           <div className='col-6 add' >
           </div>
           <div className='col-6 add' >
@@ -38,30 +41,86 @@ class Home extends Component {
             <p>Yours sincerely,</p>
             <p><b>SOHAIB KHAN</b>
               (Administrator IJK)</p>
-              <p><b>MUMTAZ AHMED JAVED</b>
+            <p><b>MUMTAZ AHMED JAVED</b>
               (Director, IJK)</p>
           </div>
-       
-        
+
+
         </div>
-        <div className="row home-mid"> 
-     <div className="col">
-     <h1>
-        Our School and Coaching Gallery
-      </h1>
-     </div>
+        {/* gallery */}
+        <div className="cnt">
+           IJK Memoreis 
+          </div>
+        <div className=" home-mid">
+          
+          <div className="row justify-content-md-center px-5  ml-4">
+            <div className="col-lg-3 col-sm-12">
+              <img src={Img3} />
+            </div>
+            <div  className="col-lg-3 col-sm-12">
+              <img src={Img2} />
+            </div>
+            <div  className="col-lg-3 col-sm-12">
+              <img src={Img1} />
+            </div >
+            <div  className="col-lg-3 col-sm-12">
+              <img src={Img1} />
+            </div>
+          </div>
+          <br />
+          <div className="row justify-content-md-center px-5  ml-4">
+            <div className="col-lg-3 col-sm-12">
+              <img src={Img1} />
+            </div>
+            <div  className="col-lg-3 col-sm-12">
+              <img src={Img1} />
+            </div>
+            <div  className="col-lg-3 col-sm-12">
+              <img src={Img1} />
+            </div >
+            <div  className="col-lg-3 col-sm-12">
+              <img src={Img1} />
+            </div>
+          </div>
+          <br />
+          <div className="row justify-content-md-center px-5  ml-4">
+            <div className="col-lg-3 col-sm-6">
+              <img src={Img1} />
+            </div>
+            <div  className="col-lg-3 col-sm-expand-6">
+              <img src={Img1} />
+            </div>
+            <div  className="col-lg-3 col-sm-6">
+              <img src={Img1} />
+            </div >
+            <div  className="col-lg-3 col-sm-6">
+              <img src={Img1} />
+            </div>
+          </div>
         </div>
+
+
       </HomeWrapper>
     );
   }
 }
 const HomeWrapper = styled.div`
 .home-mid{
-  width:100%
-  height: 500px;
-  background : yellow;
+  
+  justify-content : space-between;
+  padding: 10px;
+  
+};
+.cnt{
+  width: 100%;
   display: flex;
-  flex:1;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-direction: row;
+  font-size: 50px;
+  font-family: 'Pacifico', cursive;
 }
-`;
+
+`
 export default Home;

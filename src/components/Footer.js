@@ -1,169 +1,166 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import Logo from '../images/logo2.png';
+import Img1 from "../images/logo2.png";
+import About from './About';
+import Img3 from "../images/f.jpg";
+import Img4 from "../images/g.jpeg";
 
 class Footer extends Component {
-    render() {
-        return (
-            <FooterWrapper>
-                <footer className="ct-footer">
-                    <div className="container">
-            x 
+  render() {
+    return (
+      <FooterWrapper>
+        <footer className="ct-footer">
+          <div className="container">
+            <div className="ct-footer-pre text-center-lg">
+              <div className="inner">
+                <span>IJK Schooling and Coaching System</span>
+              </div>
+            </div>
+            x
             <ul className="ct-footer-list text-center-sm">
-                            <li>
-                                <h2 className="ct-footer-list-header">About Us</h2>
-                                <ul>
-                                    <li>
-                                        <a href="">How We Start</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Philosophy, Ethos And Values</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Our Core Values</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Our Mission </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h2 className="ct-footer-list-header">Curriculum</h2>
-                                <ul>
-                                    <li>
-                                        <a href="">Early Years Stage</a>
-                                    </li>
-                                    <li>
-                                        <a href="">The Montessori Teacher at IJK </a>
-                                    </li>
-                                    <li>
-                                        <a href="">Junior Montessori</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Senior Montessori</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Advance Montessori</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Primary Section</a>
-                                    </li><li>
-                                        <a href="">Secondary Section</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h2 className="ct-footer-list-header">Extra Activities</h2>
-                                <ul>
-                                    <li>
-                                        <a href="">Thought Leadership</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Webinars</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Events</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Sponsorships</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Advisors</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Training Program</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Activities & Campaigns</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h2 className="ct-footer-list-header">Fee Policy</h2>
-                                <ul>
-                                    <li>
-                                        <a href="">WebCorpCo Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Hackathons</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Videos</a>
-                                    </li>
-                                    <li>
-                                        <a href="">News Releases</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Newsletters</a>
-                                    </li>
-                                </ul> <ul className="logUl">
-                                    <li>
-                                <img src={Logo}className="logo" className="col-sm-d-none" />
-                                </li>
-                                    
-                                </ul>
-                          
-                            </li>
-                            <li>
-                              
-                            </li>
-                        </ul>
-                    </div>
-                        <div className="ct-footer-post mb-5 ">
-                            <div className="container">
-                                <div
-
-                                    style={{ fontSize: "20px", color: "white" }}
-                                >
-                                    <ul>
-                                        <li>
-                                           <a href="https://www.facebook.com/ijkschoolingandcoachingsystem/" target="_blank"> <i class="fab fa-facebook"></i></a>
-                                        </li>
-                                      
-                                        <li >
-                                        <i class="far fa-envelope"></i>   ijkeducation@hotmail.com
-                                        </li >
-                                       
-                                        <li >
-                                        <i class="fas fa-phone-square-alt"></i> 021 3459 0538
-                                        </li >
-                                    
-                                        <li>
-                                        <i class="fas fa-map-marker-alt"></i> House no. F-5, Rafa-e-aam Soceity, Malir Halt. Karachi, Pakistan
-                                    </li>
-                                        
-                                       
-                                    </ul>
-
-                                </div>
-                            </div>
-                        </div>
-                </footer>
-            </FooterWrapper>
-        );
-    }
+              <li>
+                <h2 className="ct-footer-list-header">About Us</h2>
+                <ul>
+                  <li>
+                    <a href="">How we start</a>
+                  </li>
+                  <li>
+                    <a href="">Philosphy</a>
+                  </li>
+                  <li>
+                    <a href="">Our core values</a>
+                  </li>
+                  <li>
+                    <a href="">Our Mission</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h2 className="ct-footer-list-header">Curriculum</h2>
+                <ul>
+                  <li>
+                    <a href="">Early Year Stage</a>
+                  </li>
+                  <li>
+                    <a href="">The Montessori Teacher At IJK</a>
+                  </li>
+                  <li>
+                    <a href="">Junior Montessori</a>
+                  </li>
+                  <li>
+                    <a href="">Senior Montessori</a>
+                  </li>
+                  <li>
+                    <a href="">Advance Montessori</a>
+                  </li>
+                  <li>
+                    <a href="">Primary Section</a>
+                  </li>
+                  <li>
+                    <a href="">Secondary Section</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h2 className="ct-footer-list-header">Activities</h2>
+                <ul>
+                  <li>
+                    <a href="">Sports</a>
+                  </li>
+                  <li>
+                    <a href="">Debates And Special Days</a>
+                  </li>
+                  <li>
+                    <a href="">Annual Picnic</a>
+                  </li>
+                  <li>
+                    <a href="">Arts And Crafts</a>
+                  </li>
+                  <li>
+                    <a href="">Educational Visits</a>
+                  </li>
+                  <li>
+                    <a href="">Communication With Parents</a>
+                  </li>
+                  <li>
+                    <a href="">Summer Workshops</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h2 className="ct-footer-list-header">IJK Policies</h2>
+                <ul>
+                  <li>
+                    <a href="">Addmission Policy</a>
+                  </li>
+                  <li>
+                    <a href="">Attendance And Absenteeism</a>
+                  </li>
+                  <li>
+                    <a href="">Videos</a>
+                  </li>
+                  <li>
+                    <a href="">News Releases</a>
+                  </li>
+                  <li>
+                    <a href="">Newsletters</a>
+                  </li>
+                </ul>
+              </li>
+              {/* add in this li */}
+              <li style={{ width: "100px" }}>
+                <img src={Img1} />
+                <ul>
+                  <li>
+                    <a href="">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      {" "}
+                      <i class="far fa-envelope"></i> ijkeducation@hotmail.com
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      {" "}
+                      <i class="fas fa-phone-square-alt"></i> 021 3459 0538
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fas fa-map-marker-alt"></i> House no. F-5,
+                      Rafa-e-aam Soceity, Malir Halt. Karachi, Pakistan
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          
+          </div>
+          <div className="ct-footer-post">
+            <div className="container">
+              <div
+            
+                style={{ fontSize: "35px", color: "white" }}
+              >
+               <marquee >
+                 Addmissions open!
+               </marquee>
+              </div>
+              
+            </div>
+          </div>
+        </footer>
+      </FooterWrapper>
+    );
+  }
 }
 const FooterWrapper = styled.footer`
-.logo{
-    width:300px;
-    height: 150px;
-    margin-left: 300px;
-    margin-top:
-    -180px;
-}
-
-}
   html,
   body,
   img,
   figure {
     max-width: 100%;
-  }
-  .footer-foot{
-      display:flex !important;
-
-      overflow: hidden;
-      background: transparent;
   }
   html,
   body {
@@ -188,7 +185,7 @@ const FooterWrapper = styled.footer`
   }
   .ct-footer {
     background-color: #111;
-  padding:0px;
+    padding-top: 70px;
     margin-top: 20px;
     position: relative;
   }
@@ -234,6 +231,7 @@ const FooterWrapper = styled.footer`
     padding: 50px 0;
     list-style: none;
     padding-left: 0;
+    display: table;
     width: 100%;
     border-bottom: 1px solid #555;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
