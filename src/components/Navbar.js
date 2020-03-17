@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import "../App.css";
-import Img from "../images/Logo.png";
+import Img from "../images/logo2.png";
 import Img1 from "../images/books.jpg";
 import Img2 from "../images/ds.jpeg";
 import Img3 from "../images/d.jpeg";
 import Img4 from "../images/e.jpg";
-import Img5 from '../images/saba.jpg';
 
 import { Link } from "react-router-dom";
 export default class Navbar extends Component {
@@ -15,8 +14,9 @@ export default class Navbar extends Component {
       <NavWrapper>
         <header>
           <nav>
+
             <div className="nav-container ">
-              <img src={Img} />
+            <img src={Img} />
               <div className="btn">
                 <div className="bar"></div>
                 <div className="bar"></div>
@@ -78,6 +78,7 @@ const NavWrapper = styled.div`
 
 .navbar{
 background: var(--mainDark)
+height: 30px;
 
 }
   nav ul {
@@ -92,7 +93,7 @@ nav  ul li {
     text-decoration: none !important;
     text-transform: uppercase !important;
     color: #fffaf0 !important;
-    transition: color 2s ease, background 2s ease, padding 2s ease;
+    transition: color 1s ease, background 1s ease, padding 1s ease;
   }
   ul > div :hover{
     background: #474747;
@@ -111,6 +112,7 @@ nav  ul li {
   border-bottom: 2px solid #fffaf0;
   display:flex;
   justify-content : space-between;
+  height: 50px;
 }
 .bar{
   width: 30px;
@@ -145,6 +147,7 @@ nav{
     flex-wrap: wrap;
     background: rgba(13, 19, 23, 0.8);
   }
+  
  nav ul li {
    background: transparent;
  }

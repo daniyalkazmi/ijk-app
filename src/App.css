@@ -130,15 +130,14 @@ h5 {
   background-position: center;
   background-size: cover;
   color: white;
-  text-align: center;
-  font-size: 70px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
-.mission p {
-  font-size: 16px;
-}
+
 .mission h1 {
-  color: #00bff3;
   font-weight: bold;
+  text-align: center;
 }
 .campus {
   background: url(./images/poster.jpg);
@@ -153,14 +152,6 @@ h5 {
 }
 .campusrow p {
   font-size: 20px;
-}
-.bg1 {
-  background-color: rgb(221, 227, 235);
-  margin-top: 20px;
-}
-.bg2 {
-  background-color: rgb(221, 227, 235);
-  margin-top: 10px;
 }
 .graduationbg {
   background: url(./images/image.jpg);

@@ -9,7 +9,7 @@ class About extends Component {
   render() {
     return (
       <AboutWrapper>
-        <div className="row">
+        <div className="row bg2">
           <div className="col-lg-6 col-sm-12 sir">
           </div>
 
@@ -25,7 +25,7 @@ class About extends Component {
         <div>
           <div className="row mission">
             <div className="col-lg-4 col-sm-12" >
-              <i class="fas fa-people-carry"></i>
+              <h1><i class="fas fa-people-carry"></i></h1>
               <h1>Our Mission</h1>
               <p>
                 Make IJK the best school of Malir and surrounding area by raising critical thinkers, responsible global citizens and students who are prepared to achieve the highest standards, both in their subsequent education and throughout their careers
@@ -33,7 +33,7 @@ class About extends Component {
             </div>
             {/* core */}
             <div className="col-lg-4 col-sm-12" >
-              <i class="fas fa-graduation-cap"></i>
+             <h1> <i class="fas fa-graduation-cap"></i></h1>
               <h1>Our Core Values </h1>
               <p>
                 We approach and engage other people with respect and honesty
@@ -48,7 +48,7 @@ class About extends Component {
             </div>
             {/* phil */}
             <div className="col-lg-4 col-sm-12" >
-              <i class="fas fa-book-reader"></i>
+              <h1><i class="fas fa-book-reader"></i></h1>
               <h1>Our Philosophy </h1>
               <p>
                 Our learning philosophy and teaching environment promote freedom of thought, expression and action. We at IJK educate all students to develop their deep learning skills so they can make informed decisions and take actions responsibly. We support our philosophy through high standards of achievement which has been proven time and again through our student’s performances.
@@ -109,6 +109,14 @@ Campus on a tour designed for prospective graduate and professional students. Yo
   }
 }
 const AboutWrapper = styled.div`
+.bg2{
+  text-align:justify;
+  font-size: 20px;
+  font-family: TimesNewRoman;
+}
+.bg2 h1{
+  text-align: center;
+}
 
 `;
 export default About;

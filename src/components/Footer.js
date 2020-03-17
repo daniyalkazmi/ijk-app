@@ -22,16 +22,16 @@ class Footer extends Component {
                 <h2 className="ct-footer-list-header">About Us</h2>
                 <ul>
                   <li>
-                    <a href="">How we start</a>
+                    <a href="./About">How we start</a>
                   </li>
                   <li>
-                    <a href="">Philosphy</a>
+                  <a href="./About"></a>   <a href="">Philosphy</a>
                   </li>
                   <li>
-                    <a href="">Our core values</a>
+                  <a href="./About">Our core values</a>
                   </li>
                   <li>
-                    <a href="">Our Mission</a>
+                  <a href="./About">Our Mission</a>
                   </li>
                 </ul>
               </li>
@@ -39,25 +39,25 @@ class Footer extends Component {
                 <h2 className="ct-footer-list-header">Curriculum</h2>
                 <ul>
                   <li>
-                    <a href="">Early Year Stage</a>
+                    <a href="./Curriculum">Early Year Stage</a>
                   </li>
                   <li>
-                    <a href="">The Montessori Teacher At IJK</a>
+                  <a href="./Curriculum">The Montessori Teacher At IJK</a>
                   </li>
                   <li>
-                    <a href="">Junior Montessori</a>
+                  <a href="./Curriculum">Junior Montessori</a>
                   </li>
                   <li>
-                    <a href="">Senior Montessori</a>
+                  <a href="./Curriculum">Senior Montessori</a>
                   </li>
                   <li>
-                    <a href="">Advance Montessori</a>
+                  <a href="./Curriculum">Advance Montessori</a>
                   </li>
                   <li>
-                    <a href="">Primary Section</a>
+                  <a href="./Curriculum">Primary Section</a>
                   </li>
                   <li>
-                    <a href="">Secondary Section</a>
+                  <a href="./Curriculum">Secondary Section</a>
                   </li>
                 </ul>
               </li>
@@ -65,25 +65,25 @@ class Footer extends Component {
                 <h2 className="ct-footer-list-header">Activities</h2>
                 <ul>
                   <li>
-                    <a href="">Sports</a>
+                    <a href="./Extra_Activities">Sports</a>
                   </li>
                   <li>
-                    <a href="">Debates And Special Days</a>
+                  <a href="./Extra_Activities">Debates And Special Days</a>
                   </li>
                   <li>
-                    <a href="">Annual Picnic</a>
+                  <a href="./Extra_Activities">Annual Picnic</a>
                   </li>
                   <li>
-                    <a href="">Arts And Crafts</a>
+                  <a href="./Extra_Activities">Arts And Crafts</a>
                   </li>
                   <li>
-                    <a href="">Educational Visits</a>
+                  <a href="./Extra_Activities">Educational Visits</a>
                   </li>
                   <li>
-                    <a href="">Communication With Parents</a>
+                  <a href="./Extra_Activities">Communication With Parents</a>
                   </li>
                   <li>
-                    <a href="">Summer Workshops</a>
+                  <a href="./Extra_Activities">Summer Workshops</a>
                   </li>
                 </ul>
               </li>
@@ -91,19 +91,19 @@ class Footer extends Component {
                 <h2 className="ct-footer-list-header">IJK Policies</h2>
                 <ul>
                   <li>
-                    <a href="">Addmission Policy</a>
+                    <a href="./Fee_Policy">Addmission Policy</a>
                   </li>
                   <li>
-                    <a href="">Attendance And Absenteeism</a>
+                  <a href="./Fee_Policy">Attendance And Absenteeism</a>
                   </li>
                   <li>
-                    <a href="">Videos</a>
+                  <a href="./Fee_Policy">Videos</a>
                   </li>
                   <li>
-                    <a href="">News Releases</a>
+                  <a href="./Fee_Policy">News Releases</a>
                   </li>
                   <li>
-                    <a href="">Newsletters</a>
+                  <a href="./Fee_Policy">Newsletters</a>
                   </li>
                 </ul>
               </li>
@@ -168,6 +168,7 @@ const FooterWrapper = styled.footer`
     color: #000;
     -ms-overflow-style: scrollbar;
     -webkit-font-smoothing: antialiased;
+    font-family: TimesNewRoman;
   }
   a,
   a:hover,
@@ -188,6 +189,7 @@ const FooterWrapper = styled.footer`
     padding-top: 70px;
     margin-top: 20px;
     position: relative;
+    font-family: TimesNewRoman;
   }
   .ct-footer-pre {
     width: 100%;
@@ -196,9 +198,9 @@ const FooterWrapper = styled.footer`
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
   .ct-footer-pre span {
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: TimesNewRoman;
     color: #ebebeb;
-    font-size: 30px;
+    font-size: 40px;
   }
   .ct-footer-pre .form-group {
     position: relative;
@@ -220,6 +222,8 @@ const FooterWrapper = styled.footer`
     padding: 0 30px;
     margin: 0 5px;
     border-radius: 0 !important;
+    font-family: TimesNewRoman;
+    font-size: 20px;
   }
   .ct-footer-pre .form-group button {
     height: 50px;
@@ -235,11 +239,13 @@ const FooterWrapper = styled.footer`
     width: 100%;
     border-bottom: 1px solid #555;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-family: TimesNewRoman;
   }
   .ct-footer-list > li .ct-footer-list-header {
     font-family: "Open Sans Condensed", sans-serif;
     color: #00bff3;
     font-size: 30px;
+    font-family: TimesNewRoman;
   }
   .ct-footer-list > li ul {
     list-style: none;
