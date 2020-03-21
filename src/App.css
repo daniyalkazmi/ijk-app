@@ -42,17 +42,25 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 100% !important;
   height: auto;
   text-align: justify;
+  overflow: hidden !important;
+}
+.home-mid {
+  width: 100% !important;
+  padding: 10px;
+}
+.icon {
+  width: 100% !important;
 }
 .home div {
-  color: aliceblue;
+  color: white;
   padding: 30px;
   font-size: 18px;
 }
 .sir {
-  width: 100%;
+  width: 100% !important;
   height: 700px;
   background: url(./images/sir.jpg);
   background-position: top;
@@ -60,10 +68,12 @@ body {
 }
 .sir-text {
   display: flex;
+  width: 100% !important;
   flex-direction: row;
 }
 h5 {
   line-height: 30px;
+  width: 100% !important;
   font-size: 20px;
 }
 @keyframes animate {
@@ -123,7 +133,7 @@ h5 {
 }
 /* abt style  */
 .mission {
-  width: 100%;
+  width: 100% !important;
   height: auto;
   margin-top: 10px;
   background-image: url(./images/mission.jpg);
@@ -132,7 +142,7 @@ h5 {
   color: white;
   text-align: justify;
   font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .mission h1 {
@@ -140,6 +150,7 @@ h5 {
   text-align: center;
 }
 .campus {
+  width: 100% !important;
   background: url(./images/poster.jpg);
   height: 400px;
   margin-top: 10px;
@@ -148,6 +159,7 @@ h5 {
   background-size: cover;
 }
 .campusrow {
+  width: 100% !important;
   text-align: center;
 }
 .campusrow p {
@@ -156,6 +168,7 @@ h5 {
 .graduationbg {
   background: url(./images/image.jpg);
   height: 400px;
+  width: 100% !important;
   margin-top: 10px;
   background-position: top;
   background-size: cover;
@@ -163,6 +176,7 @@ h5 {
 .alumni {
   background: url(./images/staff.jpg);
   height: 400px;
+  width: 100% !important;
   margin-top: 10px;
   background-position: top;
   background-size: cover;
@@ -200,6 +214,7 @@ h5 {
   text-align: center;
 }
 .homelearning {
+  width: 100%;
   background: url(./images/sch.gif);
   height: 400px;
   margin-top: 10px;
@@ -264,36 +279,30 @@ h5 {
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
-  margin-top:20px;
+  margin-top: 20px;
 }
-.beh{
+.beh {
   background-image: url(./images/beh.jpg);
   border-radius: 50%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top:20px;
+  margin-top: 20px;
 }
-.is{
+.is {
   background-image: url(./images/is.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 250px;
-  margin-top:20px;
+  margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and(max-width:600px) {
+  body {
+    overflow: hidden !important;
+    width: 100% !important;
+  }
+  .ct-footer-list li {
+    width: 100% !important;
+  }
+}

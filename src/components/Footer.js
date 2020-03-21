@@ -115,6 +115,16 @@ class Footer extends Component {
                     <a href="">Contact Us</a>
                   </li>
                   <li>
+                    <a href="https://www.facebook.com/ijkschoolingandcoachingsystem/?epa=SEARCH_BOX" target="_blank" > <i class="fab fa-facebook-f"></i> </a>
+                    {" "}
+                    
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/ijkeducation/?hl=en" target="_blank" > <i class="fab fa-instagram"></i>  </a>
+                    {" "}
+                    
+                  </li>
+                  <li>
                     <a href="#">
                       {" "}
                       <i class="far fa-envelope"></i> ijkeducation@hotmail.com
@@ -132,6 +142,7 @@ class Footer extends Component {
                       Rafa-e-aam Soceity, Malir Halt. Karachi, Pakistan
                     </a>
                   </li>
+                  
                 </ul>
               </li>
             </ul>

@@ -113,6 +113,7 @@ const AboutWrapper = styled.div`
   text-align:justify;
   font-size: 20px;
   font-family: TimesNewRoman;
+  width: 100% !important;
 }
 .bg2 h1{
   text-align: center;

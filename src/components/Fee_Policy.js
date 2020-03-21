@@ -59,7 +59,7 @@ class Fee_Policy extends Component {
         {/* addmission policy */}
         <div className="row ">
           <div className="col-lg-6 col-sm-6 add">
-            <img src={Img} />
+            <img src={Img} width="500px" />
           </div>
         <div className="col-lg-6 col-sm-6 add-text">
             <h1>

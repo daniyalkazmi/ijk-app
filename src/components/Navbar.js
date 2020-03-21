@@ -84,6 +84,7 @@ height: 30px;
   nav ul {
     list-style: none;
     display : none;
+    background :var(--mainDark);
   }
 nav  ul li {
     display : block;
@@ -108,7 +109,7 @@ nav  ul li {
   }
 .nav-container{
   padding: 0 30px;
-  background : #474747;
+  background :var(--mainDark);
   border-bottom: 2px solid #fffaf0;
   display:flex;
   justify-content : space-between;
